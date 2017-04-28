@@ -1,0 +1,113 @@
+#logo {
+    font-size: 24px ; line-height: 18px ;
+	text-align: center ; margin-top: 24pt ;
+    font-weight: bold ;
+}
+
+/* 86% makes ie more happy */
+
+#main {
+    position: absolute ; top : 0% ; bottom: 0% ; left: 15%; right: 0% ; z-index: 1 ;
+	width: 85% ;
+	_width: 86% ;  height: 100% ;
+    background-color : #FFFFFF ;
+	overflow: auto ;
+}
+
+#main-settings {
+    max-width: 60em ;
+    padding: 12pt ;
+}
+
+#menu {
+    position: absolute ; top : 0% ; bottom: 0% ; left: 0%; right: 85% ; z-index: 1 ;
+	width: 15% ;  height: 100% ;
+    background-color : #DCDCDC ;
+}
+
+#menu-top {
+    position: absolute ; top : -1.5% ; bottom: 0% ; left: 0%; right: 85% ; z-index: 2 ;
+	width: 15% ;  height: 100% ;
+}
+
+#menu-top-one {
+	padding-top: 3pt ;
+}
+
+#menu-top-two {
+	padding-top: 3pt ;
+}
+
+#menu-top-three {
+	padding-top: 3pt ;
+}
+
+#menu-top-four {
+	padding-top: 3pt ;
+}
+
+#image {
+	position: relative ; left: 0% ; text-align: center ; width: 100%
+}
+
+#menu-bottom {
+    position: absolute ; top : 0% ; bottom: 0% ; left: 0%; right: 85% ; z-index: 3 ;
+	width: 15% ;  height: 100% ; padding: 0% ; margin: 0% ;
+	border-style: none ; border-width: 0 ;
+}
+
+#menu-bottom-one {
+    display: table ; height: 100% ; width: 100% ;
+	_overflow: hidden;
+}
+#menu-bottom-two {
+    display: table-row ; height: 100% ; width: 100% ;
+	_overflow: hidden;
+}
+#menu-bottom-three {
+    display: table-cell ; width: 100% ; vertical-align: bottom ;
+	_position: absolute ; _top: 100% ;
+}
+#menu-bottom-four {
+    text-align: center ; margin-bottom: 24pt ;
+    _position: relative ; _top: -100% ;
+}
+
+body {
+    font-family: optima, verdana, futura, "lucida sans", arial, geneva, helvetica, sans ;
+    font-size: 14px ; line-height: 14px ;
+    color: #000000 ;
+}
+
+table {
+    line-height: 24px ; font-size: 14px ; margin: 0 ; border: 0 ; padding: .5em ; background-color : #00007F ;
+	margin-top: 1ex ; margin-bottom: 1ex ;
+}
+
+td {
+    padding: .5em ;
+}
+
+a:link, a:active, a:visited {
+    color: #000099 ;
+}
+
+p.menu-bottom {
+	margin-top: 6pt ;
+}
+h1 {
+    font-size: 24px ; line-height: 50px ;
+    font-weight: bold ;
+}
+h2 {
+    font-size: 18px ; line-height: 20px ;
+    font-weight: bold ;
+}
+dl {
+    margin-bottom: 11px ;
+}
+dt {
+    font-weight: bold ;
+}
+dd {
+}
